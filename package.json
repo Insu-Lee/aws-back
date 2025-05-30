@@ -8,6 +8,7 @@
   "scripts": {
     "start": "nest start --watch",
     "test": "jest --verbose",
+    "build": "nest build",
     "start:pm2": "pm2 start dist/main.js --name aws-back",
     "log:pm2": "pm2 logs",
     "list:pm2": "pm2 list",
